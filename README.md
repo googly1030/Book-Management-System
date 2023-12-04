@@ -1,4 +1,4 @@
-Absolutely, here's an example of what your README file might look like for your project:
+
 
 ---
 
