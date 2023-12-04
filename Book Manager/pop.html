@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/comeback/popup_task/style.css" />
+  </head>
+
+  <body>
+    <div class="navbar"><h1>ROG_STIX_G17</h1></div>
+    <div class="container">
+      <div class="book-continer">
+        <h2>RICH DAD AND STEP MOTHER</h2>
+        <h5>Robert</h5>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio
+          architecto ex iusto fugiat incidunt inventore, sunt voluptas
+          recusandae autem distinctio quaerat quis velit soluta? Excepturi
+          laboriosam quos illo voluptate beatae.
+        </p>
+        <button onclick="delete1(event)">Delete</button>
+      </div>
+    </div>
+
+    <div class="overlay"></div>
+
+    <div class="popup">
+      <form action="">
+        <h1>ADD BOOK</h1>
+        <input id="Book_Title" type="text" placeholder="Book Title" />
+        <input id="Book_Author" type="text" placeholder="Book Author" />
+        <textarea
+          name=""
+          id="area"
+          cols="30"
+          rows="10"
+          placeholder="Short Desciption"
+        ></textarea>
+        <button id="addbtn">Add</button>
+        <button onclick="close1(event)">close</button>
+      </form>
+    </div>
+    <button id="btn" onclick="show()"><h1>+</h1></button>
+    <script src="/comeback/popup_task/script.js"></script>
+  </body>
+</html>
